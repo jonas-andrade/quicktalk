@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 // Inicializa a resposta padrão
-$response = array('success' => false, 'message' => 'Invalid credentials');
+$response = array('success' => false, 'message' => 'Dados Inválidos');
 
 // Verifica se a requisição é do tipo POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

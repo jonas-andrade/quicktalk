@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Exibe uma mensagem de erro em caso de falha na requisição
             Swal.fire({
                 title: 'Error',
-                text: 'An error occurred. Please try again.',
+                text: 'Um Erro Ocorreu. Tente Outra Vez.',
                 icon: 'error',
                 confirmButtonText: 'OK'
             });
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (password !== repPassword) {
             Swal.fire({
                 title: 'Error',
-                text: 'Passwords do not match.',
+                text: 'Senhas Não Identicas.',
                 icon: 'error',
                 confirmButtonText: 'OK'
             });
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Exibe uma mensagem de erro em caso de falha na requisição
             Swal.fire({
                 title: 'Error',
-                text: 'An error occurred. Please try again.',
+                text: 'Um Erro Ocorreu. Tente Outra Vez!.',
                 icon: 'error',
                 confirmButtonText: 'OK'
             });
