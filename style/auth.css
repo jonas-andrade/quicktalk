@@ -22,47 +22,48 @@ div.auth {
     box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
 }
 
-div.auth p.tatle{
+div.auth p.title {
     padding: 20px;
     text-align: center;
     font-size: 24pt;
     font-weight: bold;
 }
-div.auth form{
+
+div.auth form {
     display: block;
     margin: auto;
     padding: 20px;
 }
 
-div.auth input.field{
-display: block;
-margin: 10PX auto;
-width: 100%;
-max-width: 400px;
-padding: 5px 10px;
-padding-left: 30px;
-border: 1px solid #ccc;
-border-radius: 3px;
+div.auth input.field {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 5px 10px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 div.auth input[type="text"] {
-    background: url(../img/user.png) no-repeat sroll 7px 7px;
-    background-size:  16px;
+    background: url(../img/user.png) no-repeat scroll 7px 7px;
+    background-size: 16px;
 }
 
 div.auth input[type="email"] {
-    background: url(../img/email.png) no-repeat sroll 7px 7px;
-    background-size:  16px;
+    background: url(../img/email.png) no-repeat scroll 7px 7px;
+    background-size: 16px;
 }
 
 div.auth input[type="password"] {
-    background: url(../img/password.png) no-repeat sroll 7px 7px;
-    background-size:  16px;
+    background: url(../img/password.png) no-repeat scroll 7px 7px;
+    background-size: 16px;
 }
 
 div.auth button {
     display: block;
-    margin: 20PX auto;
+    margin: 20px auto;
     padding: 10px 25px;
     border: 1px solid #ccc;
     background-color: #eee;
@@ -80,11 +81,11 @@ div.auth p.toogle {
     padding-top: 0px;
     text-align: center;
     cursor: pointer;
-    
 }
 
 div.auth p.toogle:hover {
-    text-decoration: underline #000;
+    text-decoration: underline;
+    color: #000;
 }
 
 div.register {
